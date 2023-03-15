@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 /* font-family: 'Poppins', sans-serif; */
@@ -15,8 +16,8 @@
   font-size: 17px;
   line-height: 26px;
   text-transform: uppercase;
-  box-shadow: 0 8px 6px -6px gray;
-  --webkit-box-shadow: 0 8px 6px -6px gray;
+  box-shadow: 0 4px 3px -3px gray;
+  --webkit-box-shadow: 0 4px 3px -3px gray;
   border-bottom: solid gray !important;
 }
 
@@ -39,7 +40,7 @@
 .footer {
   color: white;
   padding: 25px;
-  background: #000000; /* fallback for old browsers */
+  background: gray; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #434343,
